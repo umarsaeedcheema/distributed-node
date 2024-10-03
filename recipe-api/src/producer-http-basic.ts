@@ -1,7 +1,7 @@
 import fastify, { FastifyRequest, FastifyReply } from 'fastify';
 const server = fastify();
 
-const HOST = process.env.HOST || '127.0.0.1';
+const HOST = process.env.HOST ?? '127.0.0.1';
 const PORT = 4000;
 
 console.log(`worker pid=${process.pid}`);
