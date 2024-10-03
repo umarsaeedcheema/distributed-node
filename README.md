@@ -11,7 +11,7 @@ It receives the request from a browser and gets the data from Recipe-API.
 
 ### Producer/Server
 
-Reciper=API is the upstream server of Web-API. It produces the data that is consumed by Web-API.
+Recipe-API is the upstream server of Web-API. It produces the data that is consumed by Web-API.
 
 ### Note
 
